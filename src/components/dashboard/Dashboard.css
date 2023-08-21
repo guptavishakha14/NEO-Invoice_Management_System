@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  .dashboard-header {
+    margin-top: 100px;
+    margin-left: 64px;
+    margin-bottom: 118px;
+    margin-right: auto;
+  }
+  
+  .main-container{
+    margin-left: 64px;
+      margin-top: -109px;
+      margin-left: 64px;
+      margin-right: 64px;
+      padding-top: 25px;
+  }
+
+  h2{
+    color: white;
+    font-family:Montserrat;
+      margin-top: 66px;
+      margin-bottom: 0px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      font-weight: 600
+  }
+
+  h4{
+    color:#9DECEC;
+    font-size: 20px;
+  }
+  
+  /* *{
+      color: white;
+  }
+  
+    .bar-chart-container {
+      display: inline-flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      margin-right: auto;
+      margin-left: 65px;
+      margin-top: -42px;
+    }
+  
+    .pie-chart-container1 {
+      display: inline-flex;
+      justify-content: flex-start;
+      flex-direction: row;
+      margin-right: auto;
+      margin-left: 600px;
+      margin-top: -42px;
+    } 
+  
+    .dashboard-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .bar-charts-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 100%;
+    }
+    
+    .pie-chart-container1 {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+    }
+  */
+  
+  .dash-container1 {
+    width: 438px;
+    height: 207px;
+    background-color: #3e3d7887;
+    /* margin: 58px; */
+    margin-top: 0px;
+    /* margin-bottom: -18px; */
+    margin-left: 0px;
+    border-radius: 16px;
+    margin-right: 20px;
+    float: left;
+    min-width: auto;
+  }
+  
+  .dash-container2 {
+    width: 438px;
+    height: 207px;
+    background-color: #3e3d7887;
+    margin-top: 0px;
+    margin-left: 20px;
+    border-radius: 16px;
+    float: left;
+  }
+  .dash-container3 {
+    width: 438px;
+    height: 207px;
+    background-color: #3e3d7887;
+    margin-left: 25px;
+    border-radius: 16px;
+    float: left;
+  }
+  .dash-container4 {
+    width: 930px;
+      height: 426px;
+      background-color: #3e3d7887;
+      /* margin: 20px; */
+      margin-top: 14px;
+      margin-left: 0px;
+      border-radius: 16px;
+      float: left;
+  }  
+  .dash-container5 {
+    width: 438px;
+    height: 207px;
+    background-color: #3e3d7887;
+    margin-top: -425px;
+    margin-left: 36px;
+    border-radius: 16px;
+    float: right;
+  }
+  .dash-container6 {
+    width: 438px;
+    height: 207px;
+    margin-top: -207px;
+    background-color: #3e3d7887;
+    margin-left: 36px;
+    border-radius: 16px;
+    float: right;
+  }
+  Chart{
+    border-radius: 16px;
+  }
+  sales_data{
+    color: white;
+  }
+  rect{
+    border-radius: 12px;
+  }   

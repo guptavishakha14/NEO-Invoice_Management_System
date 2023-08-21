@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-color: #161C2B;
+    
+}
+
+.add-prod-main-container{
+    position: relative;
+    top: 60px;
+    height: calc(100vh - 60px);
+}
+
+.input-product {
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    background-color: #161C2B;
+    margin-left: 2rem;
+}
+
+
+
+.product-container {
+    height: calc(100vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product-header > h1 {
+    color: #9DECEC;
+}
+
+.product-header {
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 2rem;
+}
+
+.product-hr {
+    width: 80%;
+    margin: 1.5rem auto;
+    color: white;
+}
+
+.image-product {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 3rem;
+}
+
+.Product {
+    border-radius: 20px;
+}
+
+.product-form {
+    width: 100%;
+}
+
+ .product-inner {
+    width: 74%;
+    height: 100%;
+    /* margin-left: 10%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+
+.content-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 8rem;
+}
+
+.prod-name > .input-product {
+    margin-left: 3rem;
+}
+
+.prod-price > .input-product {
+    margin-left: 3.5rem;
+}
+
+.prod-descp > .input-product {
+    margin-left: 4.5rem;
+}
+
+.save-btn {
+    position: relative;
+    margin: 0 auto;
+    top: 3rem;
+}
+
+.save-btn > button {
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #3E3D78;
+    border: none;
+    color: white;
+    
+}
+
+.header-btn  button {
+    background-color: #161C2B;
+    border: none;
+    color: white;
+    margin-left: 2rem;
+}
+
+@media (width <= 425px) {
+
+    .product-header {
+        display: flex;
+        /* justify-content: space-between; */
+        width: 100%;
+        /* padding: 2rem; */
+    }
+
+    .product-header > h1 {
+        font-size: 1.5rem;
+    }
+
+    .header-btn {
+        display: flex;
+        gap: 1rem;
+        font-size: 0.8rem;
+    }
+
+    .product-hr {
+        width: 100%;
+        margin-bottom: 25%;
+    }
+
+    .image-product {
+        display: none;
+    }
+    .header-btn > button {
+        margin-left: 0;
+    }
+
+    .product-container {
+        height: 80%;
+    }
+
+    .product-inner label {
+        font-size: 1rem;
+        /* margin-right: auto; */
+    }
+
+    .prod-price > input {
+        margin-right: 1rem;
+    }
+
+    .prod-descp >input{
+        margin-right: 1.5rem;
+    }
+    
+}
